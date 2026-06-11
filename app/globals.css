@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2D6A4F;
+  --accent: #D4A373;
+  --sage: #40916C;
+}
+
+.card {
+  @apply bg-white dark:bg-[#252A3A] rounded-2xl shadow-sm border border-[#E5E7EB] dark:border-[#374151] transition-all;
+}
+
+.bee {
+  filter: drop-shadow(0 4px 6px rgb(0 0 0 / 0.1));
+}
